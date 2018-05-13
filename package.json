@@ -1,0 +1,26 @@
+{
+  "name": "database-import",
+  "version": "1.0.0",
+  "description": "Local database import with archiving the database dump ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test",
+    "build-ts": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreas192/database-import.git"
+  },
+  "author": "Andrei Luculescu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreas192/database-import/issues"
+  },
+  "homepage": "https://github.com/andreas192/database-import#readme",
+  "devDependencies": {
+    "lint": "^1.1.2",
+    "tslint": "^5.10.0",
+    "typescript": "^2.8.3"
+  }
+}
